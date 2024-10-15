@@ -1,0 +1,29 @@
+{
+  "name": "secondhandapi",
+  "version": "1.0.0",
+  "description": "Second chance items ",
+  "main": "api.js",
+  "type": "module",
+  "scripts": {
+    "start": "node netlify/functions/api.js",
+    "dev": "node netlify/functions/api.js",
+    "build": "echo \"Error: no build specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "used",
+    "items",
+    "second",
+    "hand",
+    "like",
+    "new"
+  ],
+  "author": "Gemechu Gesifeta",
+  "license": "ISC",
+  "dependencies": {
+    "@netlify/functions": "^2.8.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "serverless-http": "^3.2.0"
+  }
+}
